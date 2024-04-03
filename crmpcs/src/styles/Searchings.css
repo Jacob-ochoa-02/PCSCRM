@@ -1,0 +1,10 @@
+.two {
+    background-color: #00BBC9;
+    button {
+        background-color: #00BBC9;
+        color: white;
+    }
+    border: solid;
+    border-width: 1px;
+    width: 140px;
+}

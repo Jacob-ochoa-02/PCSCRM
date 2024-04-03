@@ -1,0 +1,79 @@
+.addPart {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #00747C;
+    padding: 10px;
+}
+
+h1 {
+    color:#00747C;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 20px;
+    margin-bottom: 8px;
+    width: 60%;
+}
+
+.formOf {
+    display: grid;
+    justify-items: center;
+    margin: 20px;
+}
+
+#regBtn {
+    align-self: center;
+    width: 129px;
+    height: 59px;
+    background-color: #00BBC9;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#regBtn:hover {
+    background-color: #00a7b3;
+}
+
+hr {
+    border: #979797;
+    border-style: solid;
+    border-width: 2px;
+    width: 80%;
+}
+.labelForm {
+    justify-self: start;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.formInputs {
+    border: black;
+    border-bottom: solid;
+    border-color: #E2E4E5;
+    border-width: 0.2px;
+    margin-right: 20px;
+}
+
+.formInputs:focus {
+    border-color: #8a8a8a;
+    outline: none;
+}

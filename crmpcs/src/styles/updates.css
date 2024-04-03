@@ -1,0 +1,46 @@
+#searchCont {
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 18%;
+}
+.formInputs {
+    border: black;
+    border-bottom: solid;
+    border-color: #E2E4E5;
+    border-width: 0.2px;
+    margin-right: 20px;
+}
+
+.formInputs:focus {
+    border-color: #8a8a8a;
+    outline: none;
+}
+
+.One {
+    width: 80%;
+}
+
+.buttonBox {
+    margin-left: 10px;
+    background-color: #D9D9D9;
+    margin-bottom: 8px;
+    button {
+        background-color: #D9D9D9;
+        border: none;
+        font-weight: bold;
+    }
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.buttonBox:hover {
+    background-color: #b1b1b1;
+    cursor: pointer;
+    button {
+        background-color: #b1b1b1;
+        cursor: pointer;
+    }
+}

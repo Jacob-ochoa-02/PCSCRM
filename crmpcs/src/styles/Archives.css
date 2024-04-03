@@ -1,0 +1,18 @@
+.inputContainerA {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 20px;
+    margin-bottom: 8px;
+    width: 80%;
+}
+
+#searchContA{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+    margin-left: 8%;
+}
